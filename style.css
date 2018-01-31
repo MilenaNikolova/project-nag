@@ -1,0 +1,80 @@
+html,body {
+  font-family : Inconsolata;
+  color:white;
+  position: relative;
+  font-size:2.5em;
+
+  height: 100%;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+
+  /* https://www.gradient-animator.com/ */
+  background: linear-gradient(270deg, #a22222, #241313);
+  background-size: 400% 400%;
+  -webkit-animation: GradientAnimation 24s ease infinite;
+     -moz-animation: GradientAnimation 24s ease infinite;
+          animation: GradientAnimation 24s ease infinite;
+}
+
+.contain{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em;
+}
+
+
+#image{
+  opacity:1;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+
+.fade {
+  opacity:0 !important;
+}
+
+.executed {
+  opacity:1;
+  right: 0;
+
+  -webkit-transition: all 2s ease-in-out;
+     -moz-transition: all 2s ease-in-out;
+       -o-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+}
+
+.reset {
+  opacity:0 !important;
+  right:600;
+
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+
+@-webkit-keyframes GradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
