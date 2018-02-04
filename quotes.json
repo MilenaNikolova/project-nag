@@ -2,51 +2,56 @@
  {
   "id":1,
   "text":"Chop chop!",
-  "image":"https://d6ce0no7ktiq.cloudfront.net/images/stickers/1797.png"
+  "image":"/images/chop.pmg"
  },
  {
   "id":2,
   "text":"Get it done!",
-  "image":"https://bamdone.files.wordpress.com/2017/02/bamdone_1.png?w=624"
+  "image":"/images/bamdone.png"
  },
  {
   "id":3,
   "text":"Make it work!",
-  "image":"https://sdl-stickershop.line.naver.jp/products/0/0/1/1062432/android/stickers/2583775.png"
+  "image":"/images/makeitwork.png"
  },
  {
   "id":4,
   "text":"Get shit done!",
-  "image":"http://1234kyle5678.com/wp-content/uploads/2017/07/power-of-negative-thinking-brain-work-procrastinating-1234kyle5678.png"
+  "image":"/images/getitdone.png"
  },
  {
   "id":5,
   "text":"Make it happen!",
-  "image":"https://cdn.pixabay.com/photo/2016/06/03/08/18/do-it-now-1432945_1280.png"
+  "image":"/images/doitnow.png"
  },
  {
   "id":6,
   "text":"Done is better than perfect!",
-  "image":"https://memegenerator.net/img/instances/57622474/what-are-you-waiting-forrrrrr.jpg"
+  "image":"/images/waiting-arnie.jpg"
  },
  {
   "id":7,
   "text":"Ship it!",
-  "image":"http://devstickers.com/assets/img/pro/rwsb.png"
+  "image":"/images/ship-it"
  },
  {
   "id":8,
-  "text":"What would Beyonce do?",
-  "image":"http://vagendamagazine.com/wp-content/uploads/2014/10/beyonce.png"
+  "text":"What would Marty do?",
+  "image":"/images/marty.png"
  },
  {
   "id":9,
   "text":"No excuses!",
-  "image":"http://static.tumblr.com/f5617e1b2752d9146fb68ddff716bd8a/8v2pvyh/tmhmqklau/tumblr_static_large.png"
+  "image":"/image/blah.png"
  },
  {
   "id":10,
   "text":"Keep scope down!",
-  "image":"https://cdn-images-1.medium.com/max/1200/1*HnYFt36fcEHqQp3SDqa33A.png"
+  "image":"/images/no.png"
+ },
+ {
+  "id":11,
+  "text":"What would make your PM happy?",
+  "image":"/images/smiling2.png"
  }
 ]
