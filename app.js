@@ -1,4 +1,4 @@
-$(loadQuote)
+$(loadQuote);
 
 function loadQuote() {
   $("#quote").addClass("reset");
